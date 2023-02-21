@@ -1,0 +1,235 @@
+.body {
+    margin: 0 auto;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.nav {
+    background-color: rgba(39, 47, 84, 1);
+    width: 100%;
+    height: 70px;
+    display: flex;
+}
+
+.container {
+    margin: auto;
+    display: inline-flex;
+}
+
+.nav-left {
+    margin: auto;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.nav-right {
+    margin: auto;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.nav-left img {
+    width: 15%;
+    float: left !important;
+    padding-right: 80px !important;
+}
+
+.nav-right ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline;
+}
+
+.nav-right ul li {
+    display: inline-block;
+    position: relative;
+}
+.nav-right ul li:hover ul.submenu{
+    display: block;
+}
+
+.nav-right ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 0 20px;
+
+}
+
+.nav-right ul li ul.submenu {
+    position: absolute;
+    top: 18px;
+    left: 0;
+    background-color: white;
+    width: 250px;
+    border: 1px solid #ebcccc;
+    box-shadow: 0 0 1px black;
+    display: none;
+    
+}
+
+.nav-right ul li ul.submenu li {
+    display: block ;
+    padding: 10px 10px;
+    border-bottom: 1px solid gray;
+    
+
+}
+
+.nav-right ul li ul.submenu li a {
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+    text-transform: uppercase;
+    display: block;
+    
+}
+
+.nav-right ul li ul.submenu li:hover {
+    background-color: rgb(217, 215, 215);
+    color: orangered;
+    display: block;
+}
+.intro {
+    background-image:url('img/bg_breadcrumb.webp'); ;
+    height: 200px;
+    display: block;
+    color: white;
+}
+.intro h1{
+    text-align: center;
+    padding-top: 80px;
+
+}
+.content .row {
+    display: flex;
+    padding: 20px 20px;
+}
+.col{
+    border-radius: 15px;
+    width: 24%;
+    
+}
+.buy .acb{
+    width: 100px ;
+    font-size: medium;
+    background-color: rgb(252, 89, 89);
+    border-radius: 15px;
+    margin-left: 120px;
+
+}
+.content .row .col {
+    margin: auto;
+    border: 1px solid black;
+    margin: 3px;
+}
+
+.zxc {
+    border-top: 1px solid black;
+    color: cadetblue;
+    text-align: center;
+    padding-top: 10px;
+}
+.cxz{
+    text-align: center;
+    margin-top: -10px;
+
+}
+.xcz{
+    text-align: center;
+    margin-top: -5px;
+    color: red;
+    
+}
+
+.content img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 15px;
+    margin-bottom: 0px;
+    display: flex;
+}
+.content .xcz{
+    padding-top:10px;
+}
+.hs{
+ 
+    padding: 15px;
+}
+.heading{
+    text-align: left;
+    margin-left: 30px;
+    
+}
+.subtitle{
+    text-align: left;
+    margin-top: -10px;
+    margin-left: 40px;
+    color: cadetblue;
+}
+.thongtin{
+    padding: 15px;
+}
+.ttt{
+    text-align: left;
+    margin-left: 30px;
+}
+.ttc{
+    text-align: left;
+    margin-top: -10px;
+    margin-left: 30px;
+    color: black;
+}
+.thongtin img{
+    padding-left: 350px;
+
+}
+#footer {
+    display: flex;
+}
+
+.foo a {
+    text-decoration: none;
+    color: aliceblue;
+
+}
+.food{
+    width: 45%;
+    display: block;
+    background-color: rgba(39, 47, 84, 1);
+    color: aliceblue;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    border-left: 1px solid white;
+    text-align: left;
+    
+}
+
+.foo {
+    width: 25%;
+    display: block;
+    background-color: rgba(39, 47, 84, 1);
+    color: aliceblue;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-left: 1px solid white;
+    text-align: left;
+    padding-left: 30px;
+
+}
+.foo .acb{
+    width: 100px ;
+    font-size: medium;
+    background-color: #ebcccc;
+    border-radius: 15px;
+    
+}
+
+#cop {
+    text-align: right;
+    display: block;
+    padding-right: 40px;
+}
